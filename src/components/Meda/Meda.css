@@ -1,0 +1,82 @@
+section .meda{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 4rem;
+}
+section .meda .mant-crcal{
+    position: relative;
+   
+}
+section .meda .mant-crcal .crcal{
+    left: 9rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+    background: white;
+    /* darkMode */
+    z-index: 2;
+}
+.crcal > * {
+    background-color: white;
+    position: absolute;
+    border-radius: 100%
+  }
+  .crcal> :nth-child(1) {
+    top: -3rem;
+    left: 6rem;
+  }
+  .crcal> :nth-child(1) img{  
+      width: 5rem;
+    border-radius: 26%;
+}
+  .crcal>:nth-child(2) {
+    left: -3rem;
+    top: 5rem;
+  }
+  .crcal>:nth-child(3) {
+    left: 6rem;
+    top: 5rem;
+  }
+  .crcal> :nth-child(4) {
+    left: 15rem;
+    top: 5rem;
+  }
+  .crcal> :nth-child(5) {
+    left: 6rem;
+    top: 13rem;
+  }
+section .meda .mant-crcal .crcal{
+    position: relative;
+    width: 52vh;
+    height: 52vh;
+    border-radius: 100%;
+    background-color: saddlebrown;
+}
+section .meda .mant-crcal .crcal::after{
+    content: "";
+    width: 41vh;
+    height: 41vh;
+    border-radius: 100%;
+    background-color: salmon;
+    position: absolute;
+    top: -32px;
+    left: 102px;
+    z-index: -1;
+
+}
+section .meda .mant-crcal .crcal::before{
+    content: "";
+    width: 41vh;
+    height: 41vh;
+    top: 113px;
+    z-index: -1;
+    left: 81px;
+    border-radius: 100%;
+    background-color: sandybrown;
+    position: absolute;
+
+}
